@@ -5,20 +5,20 @@ compatibility_date = "2025-05-20" # Or your project's compatibility date
 workers_dev = true
 
 kv_namespaces = [
-  { binding = "DATA_KV", id = "kv数据库的ID" }
+  { binding = "DATA_KV", id = "1beb656e5c824c389363f674927c6123" }
 ]
 
 [vars]
 IMG_PROXY = ""  #图片代理链接，用于处理图片不显示
 OPEN_TRANSLATE = "true"
-USE_MODEL_PLATFORM = "GEMINI" #GEMINI, OPEN
+USE_MODEL_PLATFORM = "OPEN" #GEMINI, OPEN
 GEMINI_API_KEY = "xxxxxx-xxxxxx"
 GEMINI_API_URL = "https://api-proxy.me/gemini" #网上公共的代理api
 DEFAULT_GEMINI_MODEL = "gemini-2.5-flash-preview-05-20"
-OPENAI_API_KEY = "sk-xxxxxx" # Replace with your actual OpenAI API Key
+OPENAI_API_KEY = "" # Replace with your actual OpenAI API Key
 OPENAI_API_URL = "https://api.deepseek.com" # Or your OpenAI compatible API URL
 DEFAULT_OPEN_MODEL = "deepseek-chat"
-FOLO_COOKIE_KV_KEY = "folo_auth_cookie" 
+FOLO_COOKIE_KV_KEY = "" 
 FOLO_DATA_API = "https://api.follow.is/entries"
 FOLO_FILTER_DAYS = 1
 NEWS_AGGREGATOR_LIST_ID = "158437828119024640" 
@@ -30,12 +30,12 @@ TWITTER_FETCH_PAGES = "1"
 REDDIT_LIST_ID = "167576006499975168" 
 REDDIT_FETCH_PAGES = "1" 
 PROJECTS_API_URL = "https://git-trending.justlikemaki.vip/topone/?since=daily"
-GITHUB_TOKEN = "github_pat_xxxxxx"
-GITHUB_REPO_OWNER = "justlovemaki"
-GITHUB_REPO_NAME = "CloudFlare-AI-Insight-Daily"
+GITHUB_TOKEN = ""
+GITHUB_REPO_OWNER = "kioo"
+GITHUB_REPO_NAME = "cloudflaredeploy"
 GITHUB_BRANCH = "main"
-LOGIN_USERNAME = "root"
-LOGIN_PASSWORD = "toor"
+LOGIN_USERNAME = "wangchi"
+LOGIN_PASSWORD = ""
 DAILY_TITLE = "AI洞察日报"
 DAILY_TITLE_MIN = " `AI 日报` "
 PODCAST_TITLE = "来生小酒馆"
